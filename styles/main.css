@@ -4,7 +4,15 @@
 
     box-sizing:inherit;
 }
+ul {
 
+    list-style: none;
+}
+
+img {
+
+    width: 100%;
+}
 .octodex {
 
     margin: 10px;
@@ -24,7 +32,14 @@
     border: 1px solid rgba(0, 0, 0, 0.8);
     
 }
+.octocat {
 
+    display: inline-block;
+    width: 100%;
+
+
+
+}
 .authors {
 
     display: grid;
@@ -32,10 +47,10 @@
     
 }
 
-.authors img {
+.authors img{
 
-    max-width: 50px;
-    height: 50px;
+    max-width: 30px;
+    max-height: 30px;
     object-fit:scale-down;
     display:inline;
     float:right;
@@ -43,18 +58,16 @@
 
 }
 
-.image-footer span {
+ span {
 
     font-weight: bold;
-    text-align: right;
-    color: #00000090;
-    float:inherit;
+    color: #0000006e;
+
 }
 
-.image-footer a {
+ a {
 
     font-weight: bold;
     color: black;
-    text-align: right;
-    float:inherit;
+
 }
